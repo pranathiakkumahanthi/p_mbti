@@ -56,3 +56,32 @@ h3 {
   font-weight: bold;
   color: #2d1e3e;
 }
+.mbti-type {
+  font-size: 48px;
+  color: #4b2e83;
+  margin: 10px 0;
+}
+
+.section {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.section h4 {
+  color: #3a225d;
+  margin-bottom: 8px;
+}
+
+.section p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.section ul {
+  padding-left: 18px;
+}
+
+.section li {
+  margin-bottom: 6px;
+  font-size: 14.5px;
+}
