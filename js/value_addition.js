@@ -57,7 +57,7 @@ function showResult() {
   </div>
 </div>
 <div class="retake">
-  <a href="introduction.html">
+  <a href="index.html">
     <button class="btn btn-info">Retake Quiz</button>
   </a>
 </div>`;
