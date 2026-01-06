@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ebdddb, #f0b4e7);
+  display: flex;
+  flex-direction: column;
+}
+
+/* center card */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #01144d;
+}
+
+
+/* optional – card width */
+.card {
+  max-width: 400px;
+  width: 90%;
+}

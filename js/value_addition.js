@@ -32,8 +32,8 @@ function showResult() {
   const info = personalityInfo[mbti];
 
   document.getElementById("result").innerHTML = `
-    <h2>✨ Your MBTI Personality Type is</h2>
-    <h1 class="mbti-type">${mbti}</h1>
+    <h2> Your MBTI Personality Type is</h2>
+    <div class="mbti-type">${mbti}</div>
     <h3>${info.title}</h3>
     <img src="${info.image}" height = "250px" alt="${mbti} Image" class="personality-image"/>
     <div class="section">
@@ -41,18 +41,25 @@ function showResult() {
       <p>${info.description}</p>
     </div>
 
-    <div class="section">
-      <h4>Strengths</h4>
-      <ul>
-        ${info.strengths.map(s => `<li>✔ ${s}</li>`).join("")}
-      </ul>
-    </div>
+    <div class="two-column">
+  <div class="section">
+    <h4>Strengths</h4>
+    <ul>
+      ${info.strengths.map(s => `<li>${s}</li>`).join("")}
+    </ul>
+  </div>
 
-    <div class="section">
-      <h4>Opportunities</h4>
-      <ul>
-        ${info.opportunities.map(o => `<li>⭐ ${o}</li>`).join("")}
-      </ul>
-    </div>
-  `;
+  <div class="section">
+    <h4>Opportunities</h4>
+    <ul>
+      ${info.opportunities.map(o => `<li>${o}</li>`).join("")}
+    </ul>
+  </div>
+</div>
+<div class="retake">
+  <a href="introduction.html">
+    <button class="btn btn-info">Retake Quiz</button>
+  </a>
+</div>`;
+
 }

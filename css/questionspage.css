@@ -85,3 +85,29 @@ h3 {
   margin-bottom: 6px;
   font-size: 14.5px;
 }
+.two-column {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.retake {
+  margin-top: 30px;
+  text-align: center;
+}
+.retake button {
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #050115;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
